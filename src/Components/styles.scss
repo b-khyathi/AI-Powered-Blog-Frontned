@@ -1,0 +1,29 @@
+.custome-link {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-style: italic;
+    margin-left: 10px;
+
+    // display: grid;
+    // grid-template-rows: 1fr 1fr 1fr;
+    // grid-template-columns: 1fr 5px 10px;
+    display: flex;
+    
+    .inner {
+
+        // height: 20%;
+        font-size: 100px;
+        // width: 100%;
+        border: 1px solid red;
+    }
+
+    .i1 {
+        flex: 1;
+    } 
+
+    .i2, .i3 {
+        flex: 0.5;
+    }
+
+}
