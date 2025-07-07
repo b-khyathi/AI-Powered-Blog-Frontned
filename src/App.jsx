@@ -9,9 +9,12 @@ import Comments from './Pages/admin/Comments'
 import Layout from './Pages/admin/Layout'
 import Login from './Components/admin/Login'
 import 'quill/dist/quill.snow.css'
+import {Toaster} from 'react-hot-toast'
+
 const App = () => {
   return (
     <div>
+      <Toaster/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/blog/:id' element={<Blog/>}/>
